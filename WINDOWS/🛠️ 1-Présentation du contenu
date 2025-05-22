@@ -1,0 +1,112 @@
+🛠️ Présentation du contenu : Installation et configuration de Windows Server & Services Réseau
+⚠️ Avis important :
+Je n’ai aucun droit de propriété sur le contenu présenté ci-dessous.
+L’ensemble du matériel est la propriété exclusive de mon mentor et enseignant, Monsieur Ricker Alcindor, qui en détient les droits intellectuels.
+Cette présentation a uniquement pour but de démontrer les compétences acquises lors des travaux pratiques réalisés sous sa supervision.
+
+📚 Contenu couvert :
+✅ Installation & Configuration des serveurs Windows
+Versions abordées : Windows Server 2012, 2016, 2019, 2022, 2025
+
+✅ Services Windows essentiels :
+ADDS (Active Directory Domain Services)
+
+DNS / WINS / DHCP
+
+WDS (Windows Deployment Services)
+
+Hyper-V
+
+IIS (Web + FTP)
+
+VPN (PPTP, L2TP/IPSec, RADIUS)
+
+WSUS
+
+Certification (PKI / CA / SSL)
+
+📌 SOMMAIRE DÉTAILLÉ DES TRAVAUX PRATIQUES
+🔹 Travail Pratique #1 : Active Directory, DNS, WINS et NAT (Page 7)
+Objectifs :
+
+Installer Windows Server 2016/2019 et Windows 10
+
+Mettre en place ADDS et joindre une machine au domaine
+
+Configurer le DNS primaire et secondaire
+
+Installer WINS
+
+Partager la connexion Internet avec NAT
+
+🔹 Travail Pratique #2 : DHCP et adressage IP dynamique (Page 63)
+Objectifs :
+
+Installer et configurer le serveur DHCP
+
+Créer des étendues DHCP, options, filtres
+
+Configurer un agent relais DHCP, le fractionnement et le basculement
+
+🔹 Travail Pratique #3 : Déploiement de Windows avec WDS (Page 93)
+Objectifs :
+
+Installer le Service WDS
+
+Lier WDS et DHCP
+
+Déployer un client Windows 10 via le réseau
+
+🔹 Travail Pratique #4 : Virtualisation avec Hyper-V (Page 105)
+Objectifs :
+
+Configurer Hyper-V sur Windows Server sous VMware
+
+Créer des machines virtuelles
+
+Installer un OS (Windows) dans Hyper-V
+
+🔹 Travail Pratique #5 : Serveur IIS – Sites Web et FTP (Page 119)
+Objectifs :
+
+Installer et configurer IIS (Internet Information Services)
+
+Créer plusieurs sites Web et serveurs FTP
+
+Configurer les zones DNS directes et inversées
+
+Publier les services sur le réseau
+
+🔹 Travail Pratique #6 : Mise en place d’un VPN (Page 139)
+Objectifs :
+
+Installer un serveur VPN
+
+Tester les protocoles PPTP et L2TP/IPsec
+
+Intégrer l’authentification RADIUS
+
+Connecter et tester un client VPN
+
+📎 Annexes
+🔸 Annexe A : Service de mise à jour Windows (WSUS) (Page 219)
+Objectifs :
+
+Installer et configurer WSUS
+
+Approuver/déployer des mises à jour Windows
+
+Gérer les clients WSUS dans un domaine
+
+🔸 Annexe B : Services de certificats (PKI) (Page 229)
+Objectifs :
+
+Installer une autorité de certification racine d’entreprise
+
+Exporter les certificats, créer un modèle personnalisé
+
+Protéger un site Web IIS avec un certificat SSL
+
+Gérer les révocations, listes CRL, certificats clients
+
+Accéder à l’interface web de l’AC
